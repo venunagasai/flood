@@ -7,8 +7,8 @@ import seaborn as sns
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Load trained models
-lr_model = joblib.load("model/logistic_regression_model.pkl")
-reg_model = joblib.load("model/linear_regression_model.pkl")
+lr_model = joblib.load("logistic_regression_model.pk)
+reg_model = joblib.load(linear_regression_model.pkl)
 
 st.title("🌊 Flood & Landslide Prediction App")
 
